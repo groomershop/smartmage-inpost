@@ -1,0 +1,27 @@
+{
+    "name": "smartmage/inpost",
+    "type": "magento2-module",
+    "description": "Smartmage Inpost - M2 module for frontend integration with Inpost service",
+    "keywords": [
+        "inpost",
+        "smartmage"
+    ],
+    "homepage": "https://sklep.smartmage.pl/integracja-magento-2-z-paczkomatami-inpost-wer-frontend.html",
+    "authors": [
+        {
+            "name": "SmartMage Team",
+            "email": "biuro@smartmage.pl",
+            "homepage": "https://smartmage.pl"
+        }
+    ],
+    "repositories": [],
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Smartmage\\Inpost\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
